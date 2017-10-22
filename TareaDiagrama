@@ -1,0 +1,41 @@
+//Tarea, Física Computacional I (XX 12-2)
+//Nombre: María Fernanda Hernandez Rodriguez
+//Creado: 22/10/2017 
+
+
+//Definir librerias utilizadas en el programa
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+        int S=12,p,m;
+        int prime=1;
+        int u=1;
+
+cout<<"Escribe un numero"<<endl;
+cin<<p;
+do{
+        do{
+        if((p%2)==0) p=p+1;
+        for(m=2; m<=p/2; ++m);
+
+
+        {prime=0;
+        p=p+2;  }
+
+if((p%1)==0);   else prime=1;
+          }
+        while(prime=0);
+        if (p<S){S=S-p;}
+        else{S=S-1;}
+        if(S=0){break;}
+        else{p=p+2;}
+   }
+while(u=1);
+
+                cout<<"p="<<p<<endl;
+        return 0;
+}
+
